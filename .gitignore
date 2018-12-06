@@ -124,3 +124,4 @@ tests/reports/coverage/*.css
 tests/reports/coverage/*.js
 tests/reports/coverage/*.json
 tests/reports/coverage/*.png
+fortunes/fortunesadmin/static/

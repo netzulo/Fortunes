@@ -80,7 +80,8 @@ INSTALL_REQUIRES = [
     'packaging>=16.8',
     'pyparsing',
     'six==1.11.0',
-    'django'
+    'django>=2',
+    'django-jet'
 ]
 SETUP_REQUIRES = [
     'pytest-runner',

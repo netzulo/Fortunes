@@ -13,9 +13,11 @@ Prerequisites
 + Create virtualenv : ``mkvirtualenv fortunes``
 + Enter your existing virtualenv : ``workon fortunes``
 + Install package : ``python setup.py clean build install test``
-+ Regenerate database scripts : ``python www/manage.py makemigrations fortunesadmin``
-+ Apply database scripts : ``python www/manage.py migrate``
-+ Create new superuser : ``python www/manage.py createsuperuser`` ( *by default is* ``admin`` / ``adminadmin``)
++ Regenerate database scripts : ``python fortunes/manage.py makemigrations fortunesadmin jet dashboard``
++ Download static data (*Modify STATIC_ROOT at settings.py*) : ``python fortunes/manage.py collectstatic``
++ Apply database scripts : ``python fortunes/manage.py migrate``
++ Create database (*just prodcution environments*) : ``python fortunes/manage.py syncdb``
++ Create new superuser : ``python fortunes/manage.py createsuperuser`` ( *by default is* ``admin`` / ``adminadmin``)
 
 Startup
 -------
