@@ -7,5 +7,6 @@
 
 from fortunes import configs
 from fortunes import core
+from fortunes import fortunesadmin
 
-__all__ = ['configs', 'core']
+__all__ = ['configs', 'core', 'fortunesadmin']

@@ -96,7 +96,7 @@ TESTS_REQUIRE = [
     'pytest-benchmark[histogram]',
 ]
 SCRIPTS = [
-    'www/manage.py',
+    'fortunes/manage.py',
 ]
 KEYWORDS = ['fortunes', 'qa', 'testing', 'logging', 'functional', 'selenium', 'test']
 GIT_URL = "https://github.com/netzulo/Fortunes"

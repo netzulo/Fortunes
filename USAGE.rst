@@ -20,8 +20,8 @@ Prerequisites
 Startup
 -------
 
-+ Can start development webserver with : ``python www/manage.py runserver 0.0.0.0:8000``
-+ You can handle data from code with : ``python www/manage.py shell``
++ Can start development webserver with : ``python fortunes/manage.py runserver 0.0.0.0:8000``
++ You can handle data from code with : ``python fortunes/manage.py shell``
 
 .. code:: python
 
